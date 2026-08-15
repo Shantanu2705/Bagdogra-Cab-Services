@@ -7,7 +7,7 @@ export default function PrivacyPolicyPage() {
       <PageHero 
         title="Privacy Policy" 
         subtitle="How we protect and use your data." 
-        imagePath="url('https://images.unsplash.com/photo-1518558997970-4fdc34346eb4?q=80&w=2000&auto=format&fit=crop')"
+        image="https://images.unsplash.com/photo-1518558997970-4fdc34346eb4?q=80&w=2000&auto=format&fit=crop"
       />
       
       <section className="py-20 bg-off-white">

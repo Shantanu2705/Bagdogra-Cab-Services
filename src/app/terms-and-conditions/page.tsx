@@ -7,7 +7,7 @@ export default function TermsAndConditionsPage() {
       <PageHero 
         title="Terms and Conditions" 
         subtitle="Please read these terms carefully before booking." 
-        imagePath="url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2000&auto=format&fit=crop')"
+        image="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2000&auto=format&fit=crop"
       />
       
       <section className="py-20 bg-off-white">
