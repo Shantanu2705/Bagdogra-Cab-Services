@@ -32,13 +32,8 @@ export function WhatsAppWidget() {
             {/* Header */}
             <div className="bg-[#00695c] px-4 py-3 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="relative w-12 h-12 bg-white rounded-full overflow-hidden border-2 border-white flex-shrink-0">
-                  <Image 
-                    src="/logo.png" 
-                    alt="Logo" 
-                    fill 
-                    className="object-cover"
-                  />
+                <div className="relative w-12 h-12 bg-white rounded-full border-2 border-white flex-shrink-0 flex items-center justify-center">
+                  <span className="text-xl font-bold text-[#00695c]">K</span>
                   <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border-2 border-white"></div>
                 </div>
                 <div>

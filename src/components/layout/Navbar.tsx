@@ -73,15 +73,12 @@ export function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-2">
-              <div className="relative h-16 w-64 md:h-20 md:w-80 transform scale-125 md:scale-150 origin-left transition-transform">
-                <Image
-                  src="/logo.png"
-                  alt="Bagdogra Cab Services"
-                  fill
-                  className="object-contain object-left"
-                  priority
-                />
-              </div>
+              <span className={cn(
+                "text-2xl font-bold font-serif whitespace-nowrap transition-colors",
+                isScrolled ? "text-primary" : "text-white drop-shadow-md"
+              )}>
+                Khogesh da Travel Agency
+              </span>
             </Link>
           </div>
 
